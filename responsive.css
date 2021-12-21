@@ -1,0 +1,36 @@
+@media (max-width: 686px) {
+    .main-left {
+        width: 100%;
+        text-align: center;
+    }
+    .left-content {
+        padding: 0;
+    }
+
+    .main-right {
+        padding: 40px 0;
+    }
+    .main-right {
+        width: 87%;
+    }
+}
+
+@media (max-width: 403px){
+    .left-content p {
+        visibility: hidden;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fff;
+    }
+    .right-content {
+        background: #fff;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 90%;
+        text-align: center;
+        margin-top: -120px;
+        box-shadow: none;
+        padding: 0;
+    }
+}
